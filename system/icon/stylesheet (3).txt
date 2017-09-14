@@ -1,0 +1,35 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-jijin {
+    width: 24px;
+    height: 24px;
+    background-position: 0 0;
+}
+
+.sprite-spritesheet-_2_ {
+    width: 24px;
+    height: 48px;
+    background-position: -24px 0;
+}
+
+.sprite-spritesheet-_3_ {
+    width: 24px;
+    height: 48px;
+    background-position: -48px 0;
+}
+
+.sprite-spritesheet-_4_ {
+    width: 24px;
+    height: 48px;
+    background-position: -72px 0;
+}
+
+.sprite-spritesheet-_5_ {
+    width: 24px;
+    height: 48px;
+    background-position: -96px 0;
+}

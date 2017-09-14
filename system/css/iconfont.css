@@ -1,0 +1,41 @@
+/*http://www.cn.spritegen.website-performance.org/#*/
+span.left-menu-icon{
+    background: url(../icon/index-menu.png) no-repeat;
+    width: 24px;
+    height: 24px;
+    list-style-type:none;
+    margin-right: 8px;
+    float: left;
+}
+
+li.fund_code{
+    background: url(../icon/index-menu.png) no-repeat;
+    width: 24px;
+    height: 24px;
+    list-style-type:none;
+    background-position: 0 0;
+}
+
+span.paddddd{
+    padding: 4px 8px;
+}
+
+.nav-sidebar a span.details {
+   background-position: -48px 0;
+}
+
+.nav-sidebar a span.zhexiantu {
+   background-position: -72px 0;
+}
+
+.nav-sidebar a span.zhuanzhexian {
+   background-position: -96px 0;
+}
+
+.nav-sidebar a span.bangzhu {
+   background-position: -24px 0;
+}
+
+.nav-sidebar >li.active span{
+    background-position-y: -24px;
+}

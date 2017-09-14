@@ -1,0 +1,8 @@
+<component name="libraryTable">
+  <library name="math" type="javaScript">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/static/math/math.min.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
