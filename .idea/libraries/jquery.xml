@@ -6,6 +6,7 @@
     <CLASSES>
       <root url="file://$PROJECT_DIR$/static/jquery/jquery.min.js" />
     </CLASSES>
+    <JAVADOC />
     <SOURCES />
   </library>
 </component>
