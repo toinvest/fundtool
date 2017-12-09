@@ -1,1 +1,88 @@
-This is test page!
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Index</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="/system/js/index.data.js"></script>
+    <link rel="stylesheet" href="/static/bootstrap/daterangepicker.css">
+    <link rel="stylesheet" href="/system/css/index.css">
+    <link rel="stylesheet" href="/system/css/iconfont.css">
+    <link rel="stylesheet" href="/static/sweetalert/sweetalert.css">
+    <script src="/static/sweetalert/sweetalert.min.js"></script>
+    <script src="/static/sweetalert/sweetalert-dev.js"></script>
+
+
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+            </ul>
+            <form class="navbar-form navbar-right">
+                <div class="input-group margin-right15 float-left">
+                  <span class="input-group-addon paddddd" id="basic-addon1"><li class="fund_code"></li></span>
+                  <input type="text" data-provide="typeahead" id="autoTest"  class="form-control typeahead" placeholder="基金代码或名称" aria-describedby="basic-addon1" autocomplete="off"/>
+                    <a class="glyphicon glyphicon-remove btn form-control-feedback pointer-events"></a>
+                </div>
+                <div id="reportrange" class="date">
+                    <i class="glyphicon glyphicon-calendar fa fa-calendar"></i>&nbsp;
+                    <span></span> <b class="caret"></b>
+                </div>
+                <input type="button" class="form-control" value="Go!" id="searchBtn">
+                <input type="hidden" id="fund_code"/>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<div class="col-sm-3 col-md-2 sidebar left-menu">
+    <ul class="nav nav-sidebar" id="left-menu">
+        <li class="active" data-index = "0"><a href="#"><span class="left-menu-icon details"></span>净值详细 <span class="sr-only">(current)</span></a></li>
+        <li data-index = "1"><a href="#"><span class="left-menu-icon zhexiantu"></span>折线走势图</a></li>
+        <li data-index = "2"><a href="#"><span class="left-menu-icon zhuanzhexian"></span>回撤走势图</a></li>
+        <li data-index = "3"><a href="#"><span class="left-menu-icon bangzhu"></span>帮助</a></li>
+        
+        
+    </ul>
+</div>
+
+<div class="right-main">
+    <div data-index = "0"></div>
+    <div data-index = "1" class = "hidden chart-height"></div>
+    <div data-index = "2" class = "hidden chart-height"></div>
+    <div data-index = "3" class = "hidden"></div>
+    <div data-index = "4" class = "hidden"></div>
+    <div class="alert alert-warning" id="modal" style="display: none;width: 20%">
+        <a href="#" class="close" data-dismiss="alert">
+            &times;
+        </a>
+        <strong>温馨提示:</strong>请先查询基金代码或名称
+    </div>
+</div>
+
+<!------------------------------------------------>
+
+<script src="https://cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
+<script src="/static/bootstrap/moment.min.js"></script>
+<script src="/static/bootstrap/daterangepicker.js"></script>
+<script src="https://cdn.bootcss.com/mathjs/3.13.3/math.min.js"></script>
+<script src="https://cdn.bootcss.com/echarts/3.6.1/echarts.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="/static/bootstrap/bootstrap3-typeahead.min.js"></script>
+<script src="/system/js/index.js"></script>
+</body>
+</html>
