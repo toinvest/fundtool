@@ -1,6 +1,6 @@
 /*http://www.cn.spritegen.website-performance.org/#*/
 span.left-menu-icon{
-    background: url(/icon/index-menu.png) no-repeat;
+    background: url(/system/icon/index-menu.png) no-repeat;
     width: 24px;
     height: 24px;
     list-style-type:none;
@@ -9,7 +9,7 @@ span.left-menu-icon{
 }
 
 li.fund_code{
-    background: url(/icon/index-menu.png) no-repeat;
+    background: url(/system/icon/index-menu.png) no-repeat;
     width: 24px;
     height: 24px;
     list-style-type:none;
