@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmaskleo%2Ffundtool.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmaskleo%2Ffundtool?ref=badge_shield)
+
 ### 基金分析
 
 ### 基金工具
@@ -41,3 +43,7 @@
  - 夏普比率：它表示我们每承担一分风险，可以带来几分的回报，该比率越高，基金承担的单位风险得到的超额回报率就越高，该系数也是越高越好了！
   
  - 最大回撤：这个指标很多机构都要参考，就是基金控制风险的能力强不强，这个指标当然越小越好。基金单位净值小于3是因为，基金做了一段时间有收益了就把利润分配掉了，否则跌下来分红就没有了。
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmaskleo%2Ffundtool.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmaskleo%2Ffundtool?ref=badge_large)
